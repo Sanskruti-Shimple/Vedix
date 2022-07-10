@@ -1,0 +1,71 @@
+*{
+	margin: 0; padding: 0; box-sizing: border-box;
+}
+
+header{
+	width: 100%; height: 100vh;
+	background-image:/*linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.1)),*/ url('../Images/green.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+nav{
+	width: 100%; height: 16.2vh;
+	/*background: forestgreen;*/
+	background: rgba(0,0,0,0.8);
+	color: white; display: flex; justify-content: space-between;
+	align-items: center ; text-align: uppercase;
+}
+
+nav .menu{
+	width: 30%;
+	display: flex; justify-content: space-around;
+}
+
+nav .menu a{
+	width: 30%;
+	text-decoration: none; color: greenyellow;
+	font-weight: bold;
+
+}
+
+nav .menu a:first-child{
+	color: #ff00ea ;
+}
+
+main{
+	width: 100%;
+	height: 83.8vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+section h3{
+	font-size: 35px; font-weight: 800; letter-spacing: 2px;
+	text-shadow: 1px 1px 2px white;
+}
+
+ section p {
+	font-size: 20px;
+	word-spacing: 2px;
+	margin-bottom: 25px;
+	text-shadow: 1px 1px 1px black;
+} 
+
+/* section a{
+	padding: 12px 30px;
+	border-radius: 4px;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 20px;
+	text-decoration: none;
+	letter-spacing: 1px;
+} */
+
+/* section .btnone{
+	background-color: #00b894;
+	color: white;
+} */
